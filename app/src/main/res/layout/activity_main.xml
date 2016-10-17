@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_gravity="center"
+    android:background="#000000"
+    tools:context="griview.itcast.com.griviewjiemian.MainActivity">
+
+        <!--
+         android:horizontalSpacing=""  两列之间的间距
+        android:verticalSpacing=""  两行之间的间距
+        android:numColumns=""  每一行显示几列   auto_fit表示自动适配
+        -->
+    <GridView
+        android:layout_marginTop="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:horizontalSpacing="10dp"
+        android:verticalSpacing="10dp"
+        android:numColumns="3"
+        android:id="@+id/gridView" />
+</LinearLayout>
